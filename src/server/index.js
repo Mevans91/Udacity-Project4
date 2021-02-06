@@ -1,7 +1,7 @@
 var path = require('path')
 const express = require('express')
 const mockAPIResponse = require('./mockAPI.js')
-
+const apiKey = '37295ada766c7c2c0fce804a54f2ad40'
 
 const app = express()
 
