@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title>Test</title>
+        <title>Language Processor</title>
     </head>
 
     <body>
@@ -12,30 +12,32 @@
                 Logo
             </div>
             <div class="">
-                navigation
+                Login | Register
             </div>
         </header>
 
         <main>
             <section>
+                <h2>Natural Language Processor</h2>
+                <h4>Enter a URL below to evaluate the page's text using Natural Language Processing</h4>
                 <form class="" onsubmit="return Client.handleSubmit(event)">
-                    <input id="name" type="text" name="input" value="" placeholder="Name">
+                    <input id="name" type="text" name="input" value="" placeholder="Enter URL Here">
                     <input type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">
                 </form>
             </section>
 
-            <section>
-                <strong>Form Results:</strong>
-                <div id="score_tag"></div>
-                <div id="agreement"></div>
-                <div id="subjectivity"></div>
-                <div id="confidence"></div>
-                <div id="irony"></div>
+            <section id="results">
+                <strong>Results:</strong>
+                <div id="score_tag">Score Tag:</div>
+                <!-- <div id="agreement"></div> -->
+                <div id="subjectivity">Subjectivity:</div>
+                <div id="confidence">Confidence Score:</div>
+                <div id="irony">Irony:</div>
             </section>
         </main>
 
         <footer>
-            <p>This is a footer</p>
+            <p>Udacity Project</p>
         </footer>
 
     </body>
