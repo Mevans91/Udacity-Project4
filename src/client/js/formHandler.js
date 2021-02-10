@@ -6,7 +6,7 @@ function handleSubmit(event) {
     Client.checkForName(formText)
 
     console.log("::: Form Submitted :::")
-    fetch('http://localhost:8080/analyze', {
+    fetch('http://localhost:8081/analyze', {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
